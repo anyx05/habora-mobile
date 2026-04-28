@@ -1,0 +1,210 @@
+{
+  "@@locale": "et",
+
+  "appName": "SadamaAgent",
+
+  "tagline": "Leia oma kaid kõikjal Eestis",
+  "taglineSub": "Reaalajas sadamakohtade saadavus laevaoperaatoritele",
+
+  "signIn": "Logi sisse",
+  "createAccount": "Loo konto",
+  "email": "E-post",
+  "password": "Salasõna",
+  "confirmPassword": "Kinnita salasõna",
+  "fullName": "Täisnimi",
+  "forgotPassword": "Unustasid salasõna?",
+  "sendResetLink": "Saada lähtestamislink",
+  "checkEmail": "Kontrolli oma e-posti",
+  "continueWithGoogle": "Jätka Google'iga",
+  "continueAsGuest": "Jätka külalisena",
+  "guestSubtitle": "Kontot pole vaja · Broneeri kohe",
+  "noAccountSignUp": "Pole kontot? Registreeru tasuta",
+  "orDivider": "või",
+  "fieldRequired": "Kohustuslik",
+  "invalidEmail": "Sisesta kehtiv e-post",
+  "resetEmailSentBody": "Saatsime lähtestamislingi sinu e-postile. Kontrolli postkasti.",
+
+  "passwordMismatch": "Salasõnad ei kattu",
+  "errorInvalidCredentials": "E-post või salasõna on vale",
+  "errorUserExists": "Konto on olemas. Logi sisse?",
+  "errorNetwork": "Ühenduse probleem. Kontrolli ühendust.",
+
+  "portsTabLabel": "Sadamad",
+  "bookingsTabLabel": "Broneeringud",
+  "meTabLabel": "Mina",
+
+  "searchHint": "Otsi sadamaid, sihtkohti…",
+  "portsFound": "{count} sadamat leitud",
+  "@portsFound": {
+    "placeholders": {"count": {"type": "int"}}
+  },
+  "seeAll": "Vaata kõiki",
+
+  "filterNearest": "Lähimad",
+  "filterAvailableNow": "Saadaval nüüd",
+  "filterPriceAsc": "Hind ↑",
+  "filterSaved": "Salvestatud",
+
+  "checkAvailability": "Kontrolli saadavust",
+  "availableBerths": "Saadaolevad kaied",
+  "bookThisBerth": "Broneeri see kaid",
+  "fromPricePerNight": "alates {price}€/öö",
+  "@fromPricePerNight": {
+    "placeholders": {"price": {"type": "double"}}
+  },
+
+  "myBookings": "Minu broneeringud",
+  "bookingsSubtitle": "Sinu kaikoha reserveeringud",
+  "tabUpcoming": "Tulevased",
+  "tabPast": "Möödunud",
+  "tabCancelled": "Tühistatud",
+  "noUpcomingBookings": "Tulevasi broneeringuid pole",
+  "noTripsYet": "Reise pole veel",
+  "noCancellations": "Tühistusi pole",
+  "findAPort": "Leia sadam →",
+
+  "bookingDetails": "Broneeringu andmed",
+  "cancelBooking": "Tühista broneering",
+  "cancelConfirmTitle": "Tühista see broneering?",
+  "cancelConfirmBody": "Seda toimingut ei saa tagasi võtta.",
+  "confirmAction": "Kinnita",
+  "backAction": "Tagasi",
+
+  "bookingConfirmed": "Broneering kinnitatud!",
+  "confirmationEmailSent": "Kinnituse e-kiri saadeti aadressile {email}",
+  "@confirmationEmailSent": {
+    "placeholders": {"email": {"type": "String"}}
+  },
+  "viewBooking": "Vaata broneeringut",
+  "findMorePorts": "Leia rohkem sadamaid",
+
+  "vesselDetails": "Laeva andmed",
+  "contactInfo": "Kontaktandmed",
+  "confirmBooking": "Kinnita broneering €{price}",
+  "@confirmBooking": {
+    "placeholders": {"price": {"type": "double"}}
+  },
+  "continueAction": "Jätka",
+  "enterManually": "Sisesta käsitsi",
+  "useThisVessel": "Kasuta seda laeva",
+
+  "vesselName": "Laeva nimi",
+  "vesselLength": "Pikkus (m)",
+  "vesselDraft": "Süvis (m)",
+  "vesselBeam": "Laius (m)",
+  "vesselType": "Laeva tüüp",
+  "vesselTypeSailboat": "Purjelaev",
+  "vesselTypeMotorboat": "Mootorpaat",
+  "vesselTypeCatamaran": "Katamaran",
+  "vesselTypeWaterTaxi": "Veetakso",
+  "vesselTypeOther": "Muu",
+
+  "accountTitle": "SadamaAgent",
+  "myVessels": "Minu laevad",
+  "addVessel": "+ Lisa",
+  "addFirstVessel": "Lisa oma esimene laev",
+  "addVesselTitle": "Lisa laev",
+  "saveVessel": "Salvesta laev",
+
+  "preferences": "Eelistused",
+  "notifications": "Teavitused",
+  "notificationsSubtitle": "Broneeringute kinnitused, meeldetuletused",
+  "language": "Keel",
+  "paymentMethods": "Makseviisid",
+  "paymentMethodsSubtitle": "Lisa kaart kiireks kassasse",
+  "termsPrivacy": "Tingimused ja privaatsus",
+  "signOut": "Logi välja",
+  "signOutConfirmTitle": "Logid välja?",
+
+  "guestAccountTitle": "Sõida SadamaAgentiga",
+  "guestAccountBody": "Loo tasuta konto, et salvestada oma laevu ja jälgida broneeringuid",
+  "browsingAsGuest": "Sirvin külalisena · Sinu broneeringud on seotud sinu e-postiga",
+  "memberSince": "Liige alates {monthYear}",
+  "@memberSince": {
+    "placeholders": {"monthYear": {"type": "String"}}
+  },
+  "appVersion": "SadamaAgent v1.0.0 · Tehtud Eestis 🇪🇪",
+
+  "availabilityAvailable": "Saadaval",
+  "availabilityLimited": "Piiratud",
+  "availabilityFull": "Täis",
+  "bookingStatusActive": "Aktiivne",
+  "nightsCount": "{count}ö",
+  "@nightsCount": {
+    "placeholders": {"count": {"type": "int"}}
+  },
+  "distanceKm": "{distance} km",
+  "@distanceKm": {
+    "placeholders": {"distance": {"type": "String"}}
+  },
+
+  "filterSheetTitle": "Filtrid",
+  "filterApply": "Rakenda filtrid",
+  "filterReset": "Lähtesta",
+  "arrivalDate": "Saabumine",
+  "departureDate": "Väljumine",
+  "selectDates": "Vali kuupäevad",
+  "noPortsFound": "Sadamaid ei leitud",
+  "tryAdjustingFilters": "Proovi filtreid muuta",
+  "retry": "Proovi uuesti",
+
+  "deleteVesselTitle": "Eemalda see laev?",
+  "@deleteVesselTitle": {"description": "Confirmation dialog title for vessel deletion"},
+
+  "removeAction": "Eemalda",
+  "@removeAction": {"description": "Confirm remove/delete action in dialogs"},
+
+  "notesLabel": "Märkused",
+  "notesHint": "Saabumisaeg, eripäringud…",
+  "editAction": "Muuda",
+  "signInToBook": "Logi sisse broneeringu kinnitamiseks",
+  "berthConflictError": "Kaid pole enam saadaval",
+  "getDirections": "Juhised",
+
+  "arrivingInDays": "Saabumine {days} päeva pärast",
+  "@arrivingInDays": {
+    "placeholders": {"days": {"type": "int"}}
+  },
+
+  "currentlyBerthed": "Praegu kais",
+  "bookingStatusCompleted": "Lõpetatud",
+  "bookingCancelledSuccess": "Broneering tühistatud",
+  "vesselSavedSuccess": "Laev salvestatud!",
+  "nights": "Ööd",
+  "checkInTime": "Sisseregistreerimine: 14:00",
+  "checkOutTime": "Väljaregistreerimine: 11:00",
+  "paymentStatusPaid": "Makstud",
+  "paymentStatusPending": "Ootel",
+
+  "berthsFreeCount": "{count} kaied vabad",
+  "@berthsFreeCount": {
+    "placeholders": {"count": {"type": "int"}}
+  },
+
+  "bookingFailed": "Broneerimine ebaõnnestus",
+  "ok": "OK",
+  "findAnotherBerth": "Leia teine kaid",
+  "bookingErrorBerthNotFound": "See kaikoht ei ole enam saadaval. Palun vali teine.",
+  "bookingErrorVesselTooLong": "Teie alus on selle kaikoha jaoks liiga pikk.",
+  "bookingErrorVesselTooDeep": "Teie aluse süvis ületab selle kaikoha sügavuse.",
+  "bookingErrorBerthUnavailable": "See kaikoht broneeriti just kellegi teise poolt. Palun vali teised kuupäevad või teine kaid.",
+
+  "signupConfirmationTitle": "Kontrolli oma e-posti",
+  "signupConfirmationMessage": "Saatsime kinnituslingi aadressile {email}. Klõpsa sellel, et oma konto aktiveerida.",
+  "@signupConfirmationMessage": {
+    "placeholders": {"email": {"type": "String"}}
+  },
+
+  "openMailApp": "Ava e-posti rakendus",
+  "backToSignIn": "Tagasi sisselogimisse",
+
+  "didntGetEmail": "E-kirja ei saanud? Kontrolli rämpsposti või",
+  "resendIn": "Saada uuesti {seconds}s pärast",
+  "@resendIn": {
+    "placeholders": {"seconds": {"type": "int"}}
+  },
+  "resendNow": "Saada kinnitus uuesti",
+
+  "wrongAccountTitle": "Vale kontotüüp",
+  "wrongAccountMessage": "See on sadama haldaja konto. Mobiilirakendus on aluste operaatoritele. Palun kasuta veebipõhist töölauda."
+}

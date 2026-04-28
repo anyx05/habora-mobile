@@ -1,0 +1,456 @@
+{
+  "@@locale": "en",
+
+  "appName": "SadamaAgent",
+  "@appName": {"description": "Application name"},
+
+  "tagline": "Find your berth anywhere in Estonia",
+  "@tagline": {"description": "Hero tagline on auth screen"},
+
+  "taglineSub": "Real-time port availability for vessel operators",
+  "@taglineSub": {"description": "Sub-tagline on auth screen"},
+
+  "signIn": "Sign in",
+  "@signIn": {"description": "Sign in button / tab label"},
+
+  "createAccount": "Create account",
+  "@createAccount": {"description": "Create account button / tab label"},
+
+  "email": "Email",
+  "@email": {"description": "Email field label"},
+
+  "password": "Password",
+  "@password": {"description": "Password field label"},
+
+  "confirmPassword": "Confirm password",
+  "@confirmPassword": {"description": "Confirm password field label"},
+
+  "fullName": "Full name",
+  "@fullName": {"description": "Full name field label"},
+
+  "forgotPassword": "Forgot password?",
+  "@forgotPassword": {"description": "Forgot password link"},
+
+  "sendResetLink": "Send reset link",
+  "@sendResetLink": {"description": "Send password reset link button"},
+
+  "checkEmail": "Check your email",
+  "@checkEmail": {"description": "Confirmation message after password reset"},
+
+  "continueWithGoogle": "Continue with Google",
+  "@continueWithGoogle": {"description": "Google OAuth button label"},
+
+  "continueAsGuest": "Continue as guest",
+  "@continueAsGuest": {"description": "Guest access button label"},
+
+  "guestSubtitle": "No account needed · Book instantly",
+  "@guestSubtitle": {"description": "Subtitle under guest button"},
+
+  "noAccountSignUp": "Don't have an account? Sign up free",
+  "@noAccountSignUp": {"description": "Footer link on sign-in form"},
+
+  "orDivider": "or",
+  "@orDivider": {"description": "Divider between auth options"},
+
+  "fieldRequired": "Required",
+  "@fieldRequired": {"description": "Generic required-field validation error"},
+
+  "invalidEmail": "Enter a valid email",
+  "@invalidEmail": {"description": "Email format validation error"},
+
+  "resetEmailSentBody": "We sent a reset link to your email. Check your inbox.",
+  "@resetEmailSentBody": {"description": "Body text shown after password reset email is sent"},
+
+  "passwordMismatch": "Passwords do not match",
+  "@passwordMismatch": {"description": "Validation error when passwords differ"},
+
+  "errorInvalidCredentials": "Email or password incorrect",
+  "@errorInvalidCredentials": {"description": "Auth error for wrong credentials"},
+
+  "errorUserExists": "Account exists. Sign in instead?",
+  "@errorUserExists": {"description": "Auth error when email already registered"},
+
+  "errorNetwork": "Connection problem. Check your connection.",
+  "@errorNetwork": {"description": "Generic network error message"},
+
+  "portsTabLabel": "Ports",
+  "@portsTabLabel": {"description": "Bottom nav tab label for ports"},
+
+  "bookingsTabLabel": "Bookings",
+  "@bookingsTabLabel": {"description": "Bottom nav tab label for bookings"},
+
+  "meTabLabel": "Me",
+  "@meTabLabel": {"description": "Bottom nav tab label for account"},
+
+  "searchHint": "Search ports, destinations…",
+  "@searchHint": {"description": "Search bar placeholder text"},
+
+  "portsFound": "{count} ports found",
+  "@portsFound": {
+    "description": "Count of ports displayed in bottom sheet header",
+    "placeholders": {"count": {"type": "int"}}
+  },
+
+  "seeAll": "See all",
+  "@seeAll": {"description": "See all ports link"},
+
+  "filterNearest": "Nearest",
+  "@filterNearest": {"description": "Filter chip: nearest ports"},
+
+  "filterAvailableNow": "Available now",
+  "@filterAvailableNow": {"description": "Filter chip: available now"},
+
+  "filterPriceAsc": "Price ↑",
+  "@filterPriceAsc": {"description": "Filter chip: price ascending"},
+
+  "filterSaved": "Saved",
+  "@filterSaved": {"description": "Filter chip: saved ports"},
+
+  "checkAvailability": "Check availability",
+  "@checkAvailability": {"description": "Button to open port detail screen"},
+
+  "availableBerths": "Available berths",
+  "@availableBerths": {"description": "Section heading on port detail"},
+
+  "bookThisBerth": "Book this berth",
+  "@bookThisBerth": {"description": "Button on berth card"},
+
+  "fromPricePerNight": "from {price}€/night",
+  "@fromPricePerNight": {
+    "description": "Price label on port list row",
+    "placeholders": {"price": {"type": "double"}}
+  },
+
+  "myBookings": "My Bookings",
+  "@myBookings": {"description": "Bookings screen page title"},
+
+  "bookingsSubtitle": "Your berth reservations",
+  "@bookingsSubtitle": {"description": "Bookings screen subtitle"},
+
+  "tabUpcoming": "Upcoming",
+  "@tabUpcoming": {"description": "Bookings tab: upcoming"},
+
+  "tabPast": "Past",
+  "@tabPast": {"description": "Bookings tab: past"},
+
+  "tabCancelled": "Cancelled",
+  "@tabCancelled": {"description": "Bookings tab: cancelled"},
+
+  "noUpcomingBookings": "No upcoming bookings",
+  "@noUpcomingBookings": {"description": "Empty state for upcoming bookings"},
+
+  "noTripsYet": "No trips yet",
+  "@noTripsYet": {"description": "Empty state for past bookings"},
+
+  "noCancellations": "No cancellations",
+  "@noCancellations": {"description": "Empty state for cancelled bookings"},
+
+  "findAPort": "Find a port →",
+  "@findAPort": {"description": "CTA on empty upcoming bookings"},
+
+  "bookingDetails": "Booking details",
+  "@bookingDetails": {"description": "Booking detail screen title"},
+
+  "cancelBooking": "Cancel booking",
+  "@cancelBooking": {"description": "Cancel booking button"},
+
+  "cancelConfirmTitle": "Cancel this booking?",
+  "@cancelConfirmTitle": {"description": "Cancel confirmation dialog title"},
+
+  "cancelConfirmBody": "This action cannot be undone.",
+  "@cancelConfirmBody": {"description": "Cancel confirmation dialog body"},
+
+  "confirmAction": "Confirm",
+  "@confirmAction": {"description": "Confirm button in dialogs"},
+
+  "backAction": "Back",
+  "@backAction": {"description": "Back button label"},
+
+  "bookingConfirmed": "Booking confirmed!",
+  "@bookingConfirmed": {"description": "Booking success headline"},
+
+  "confirmationEmailSent": "Confirmation email sent to {email}",
+  "@confirmationEmailSent": {
+    "description": "Note on booking success screen",
+    "placeholders": {"email": {"type": "String"}}
+  },
+
+  "viewBooking": "View booking",
+  "@viewBooking": {"description": "Button on booking success screen"},
+
+  "findMorePorts": "Find more ports",
+  "@findMorePorts": {"description": "Secondary button on booking success screen"},
+
+  "vesselDetails": "Vessel details",
+  "@vesselDetails": {"description": "Step 1 heading in booking flow"},
+
+  "contactInfo": "Contact info",
+  "@contactInfo": {"description": "Step 2 heading in booking flow"},
+
+  "confirmBooking": "Confirm booking €{price}",
+  "@confirmBooking": {
+    "description": "Final confirm button in booking flow",
+    "placeholders": {"price": {"type": "double"}}
+  },
+
+  "continueAction": "Continue",
+  "@continueAction": {"description": "Continue button in multi-step flow"},
+
+  "enterManually": "Enter manually",
+  "@enterManually": {"description": "Option to enter vessel details manually"},
+
+  "useThisVessel": "Use this vessel",
+  "@useThisVessel": {"description": "Button on vessel selector card"},
+
+  "vesselName": "Vessel name",
+  "@vesselName": {"description": "Vessel name field label"},
+
+  "vesselLength": "Length (m)",
+  "@vesselLength": {"description": "Vessel length field label"},
+
+  "vesselDraft": "Draft (m)",
+  "@vesselDraft": {"description": "Vessel draft field label"},
+
+  "vesselBeam": "Beam (m)",
+  "@vesselBeam": {"description": "Vessel beam field label"},
+
+  "vesselType": "Vessel type",
+  "@vesselType": {"description": "Vessel type dropdown label"},
+
+  "vesselTypeSailboat": "Sailboat",
+  "vesselTypeMotorboat": "Motorboat",
+  "vesselTypeCatamaran": "Catamaran",
+  "vesselTypeWaterTaxi": "Water taxi",
+  "vesselTypeOther": "Other",
+
+  "accountTitle": "SadamaAgent",
+  "@accountTitle": {"description": "Account screen app bar title"},
+
+  "myVessels": "My Vessels",
+  "@myVessels": {"description": "Section heading for vessels"},
+
+  "addVessel": "+ Add",
+  "@addVessel": {"description": "Add vessel action label"},
+
+  "addFirstVessel": "Add your first vessel",
+  "@addFirstVessel": {"description": "Empty state CTA for vessels"},
+
+  "addVesselTitle": "Add vessel",
+  "@addVesselTitle": {"description": "Add vessel screen app bar title"},
+
+  "saveVessel": "Save vessel",
+  "@saveVessel": {"description": "Save vessel button"},
+
+  "preferences": "Preferences",
+  "@preferences": {"description": "Preferences section heading"},
+
+  "notifications": "Notifications",
+  "@notifications": {"description": "Notifications settings item"},
+
+  "notificationsSubtitle": "Booking confirmations, reminders",
+  "@notificationsSubtitle": {"description": "Notifications settings subtitle"},
+
+  "language": "Language",
+  "@language": {"description": "Language settings item"},
+
+  "paymentMethods": "Payment methods",
+  "@paymentMethods": {"description": "Payment methods settings item"},
+
+  "paymentMethodsSubtitle": "Add card for faster checkout",
+  "@paymentMethodsSubtitle": {"description": "Payment methods subtitle"},
+
+  "termsPrivacy": "Terms & Privacy",
+  "@termsPrivacy": {"description": "Terms and privacy settings item"},
+
+  "signOut": "Sign out",
+  "@signOut": {"description": "Sign out settings item"},
+
+  "signOutConfirmTitle": "Sign out?",
+  "@signOutConfirmTitle": {"description": "Sign out confirmation dialog title"},
+
+  "guestAccountTitle": "Sail with SadamaAgent",
+  "@guestAccountTitle": {"description": "Guest state headline on account screen"},
+
+  "guestAccountBody": "Create a free account to save your vessels and track bookings",
+  "@guestAccountBody": {"description": "Guest state body on account screen"},
+
+  "browsingAsGuest": "Browsing as guest · Your bookings are tied to your email",
+  "@browsingAsGuest": {"description": "Guest footer note on account screen"},
+
+  "memberSince": "Member since {monthYear}",
+  "@memberSince": {
+    "description": "Member since label in account header",
+    "placeholders": {"monthYear": {"type": "String"}}
+  },
+
+  "appVersion": "SadamaAgent v1.0.0 · Made in Estonia 🇪🇪",
+  "@appVersion": {"description": "Footer version string on account screen"},
+
+  "availabilityAvailable": "Available",
+  "@availabilityAvailable": {"description": "Berth availability badge: berths available"},
+
+  "availabilityLimited": "Limited",
+  "@availabilityLimited": {"description": "Berth availability badge: few berths remain"},
+
+  "availabilityFull": "Full",
+  "@availabilityFull": {"description": "Berth availability badge: no berths available"},
+
+  "bookingStatusActive": "Active",
+  "@bookingStatusActive": {"description": "Booking status badge: reservation is currently active"},
+
+  "nightsCount": "{count}n",
+  "@nightsCount": {
+    "description": "Abbreviated night count shown in booking card (e.g. '3n')",
+    "placeholders": {"count": {"type": "int"}}
+  },
+
+  "distanceKm": "{distance} km",
+  "@distanceKm": {
+    "description": "Distance in kilometres shown in port list row",
+    "placeholders": {"distance": {"type": "String"}}
+  },
+
+  "filterSheetTitle": "Filters",
+  "@filterSheetTitle": {"description": "Title of the filter bottom sheet"},
+
+  "filterApply": "Apply filters",
+  "@filterApply": {"description": "Apply filters button in filter sheet"},
+
+  "filterReset": "Reset",
+  "@filterReset": {"description": "Reset filters button in filter sheet"},
+
+  "arrivalDate": "Arrival",
+  "@arrivalDate": {"description": "Arrival date label"},
+
+  "departureDate": "Departure",
+  "@departureDate": {"description": "Departure date label"},
+
+  "selectDates": "Select dates",
+  "@selectDates": {"description": "Placeholder when no dates are selected"},
+
+  "noPortsFound": "No ports found",
+  "@noPortsFound": {"description": "Empty state when no ports match filters"},
+
+  "tryAdjustingFilters": "Try adjusting your filters",
+  "@tryAdjustingFilters": {"description": "Subtitle on no-ports empty state"},
+
+  "retry": "Retry",
+  "@retry": {"description": "Retry button after an error"},
+
+  "deleteVesselTitle": "Remove this vessel?",
+  "@deleteVesselTitle": {"description": "Confirmation dialog title for vessel deletion"},
+
+  "removeAction": "Remove",
+  "@removeAction": {"description": "Confirm remove/delete action in dialogs"},
+
+  "notesLabel": "Notes",
+  "@notesLabel": {"description": "Notes field label in booking flow step 2"},
+
+  "notesHint": "Arrival time, special requests…",
+  "@notesHint": {"description": "Notes field hint in booking flow step 2"},
+
+  "editAction": "Edit",
+  "@editAction": {"description": "Edit button to toggle read-only pre-filled fields"},
+
+  "signInToBook": "Sign in to confirm your booking",
+  "@signInToBook": {"description": "Auth prompt sheet title shown before booking flow"},
+
+  "berthConflictError": "Berth no longer available",
+  "@berthConflictError": {"description": "Error shown when selected berth becomes unavailable during booking"},
+
+  "getDirections": "Get directions",
+  "@getDirections": {"description": "Button to open maps for directions to a port"},
+
+  "arrivingInDays": "Arriving in {days} days",
+  "@arrivingInDays": {
+    "description": "Status banner for an upcoming booking",
+    "placeholders": {"days": {"type": "int"}}
+  },
+
+  "currentlyBerthed": "Currently berthed",
+  "@currentlyBerthed": {"description": "Status banner for an active (currently berthed) booking"},
+
+  "bookingStatusCompleted": "Completed",
+  "@bookingStatusCompleted": {"description": "Status banner for a completed booking"},
+
+  "bookingCancelledSuccess": "Booking cancelled",
+  "@bookingCancelledSuccess": {"description": "Snackbar shown after a booking is successfully cancelled"},
+
+  "vesselSavedSuccess": "Vessel saved!",
+  "@vesselSavedSuccess": {"description": "Snackbar shown after a vessel is saved successfully"},
+
+  "nights": "Nights",
+  "@nights": {"description": "Column header for night count in dates card"},
+
+  "checkInTime": "Check-in: 14:00",
+  "@checkInTime": {"description": "Check-in time label on booking detail"},
+
+  "checkOutTime": "Check-out: 11:00",
+  "@checkOutTime": {"description": "Check-out time label on booking detail"},
+
+  "paymentStatusPaid": "Paid",
+  "@paymentStatusPaid": {"description": "Payment status badge: booking is paid / confirmed"},
+
+  "paymentStatusPending": "Pending",
+  "@paymentStatusPending": {"description": "Payment status badge: booking is pending payment"},
+
+  "berthsFreeCount": "{count} berths free",
+  "@berthsFreeCount": {
+    "description": "Berth count label in port preview",
+    "placeholders": {"count": {"type": "int"}}
+  },
+
+  "bookingFailed": "Booking failed",
+  "@bookingFailed": {"description": "Title of the booking-error dialog"},
+
+  "ok": "OK",
+  "@ok": {"description": "Generic OK button label"},
+
+  "findAnotherBerth": "Find another berth",
+  "@findAnotherBerth": {"description": "Action button when a berth is unavailable"},
+
+  "bookingErrorBerthNotFound": "This berth is no longer available. Please choose another.",
+  "@bookingErrorBerthNotFound": {"description": "Error when the target berth is missing or inactive"},
+
+  "bookingErrorVesselTooLong": "Your vessel is too long for this berth.",
+  "@bookingErrorVesselTooLong": {"description": "Error when vessel length exceeds berth maximum"},
+
+  "bookingErrorVesselTooDeep": "Your vessel's draft exceeds this berth's depth limit.",
+  "@bookingErrorVesselTooDeep": {"description": "Error when vessel draft exceeds berth maximum"},
+
+  "bookingErrorBerthUnavailable": "This berth was just booked by someone else. Please choose different dates or another berth.",
+  "@bookingErrorBerthUnavailable": {"description": "Error when an overlapping booking exists"},
+
+  "signupConfirmationTitle": "Check your email",
+  "@signupConfirmationTitle": {"description": "Headline on the signup email confirmation screen"},
+
+  "signupConfirmationMessage": "We sent a confirmation link to {email}. Click it to activate your account.",
+  "@signupConfirmationMessage": {
+    "description": "Body text on the signup email confirmation screen",
+    "placeholders": {"email": {"type": "String"}}
+  },
+
+  "openMailApp": "Open mail app",
+  "@openMailApp": {"description": "Button to open the default mail app"},
+
+  "backToSignIn": "Back to sign in",
+  "@backToSignIn": {"description": "Link to go back to the sign-in screen"},
+
+  "didntGetEmail": "Didn't get the email? Check spam or",
+  "@didntGetEmail": {"description": "Note above the resend button on signup confirmation screen"},
+
+  "resendIn": "Resend in {seconds}s",
+  "@resendIn": {
+    "description": "Countdown label while the resend button is disabled",
+    "placeholders": {"seconds": {"type": "int"}}
+  },
+
+  "resendNow": "Resend confirmation email",
+  "@resendNow": {"description": "Button to resend the signup confirmation email"},
+
+  "wrongAccountTitle": "Wrong account type",
+  "@wrongAccountTitle": {"description": "Title of the dialog shown when a port operator tries to sign in on mobile"},
+
+  "wrongAccountMessage": "This account is a port manager account. The mobile app is for vessel operators. Please use the web dashboard instead.",
+  "@wrongAccountMessage": {"description": "Body of the wrong-account-type dialog"}
+}
