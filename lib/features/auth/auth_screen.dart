@@ -55,6 +55,7 @@ class AuthScreen extends HookConsumerWidget {
     }
 
     void showRoleMismatchDialog() {
+      if (!context.mounted) return;
       showDialog<void>(
         context: context,
         builder: (_) => AlertDialog(
@@ -112,15 +113,16 @@ class AuthScreen extends HookConsumerWidget {
             );
         onSuccess();
       } on AuthException catch (e) {
+        if (!context.mounted) return;
         if (e.statusCode == 'ROLE_MISMATCH') {
           showRoleMismatchDialog();
         } else {
           error.value = mapError(e);
         }
       } catch (e) {
-        error.value = mapError(e);
+        if (context.mounted) error.value = mapError(e);
       } finally {
-        isLoading.value = false;
+        if (context.mounted) isLoading.value = false;
       }
     }
 
@@ -129,17 +131,18 @@ class AuthScreen extends HookConsumerWidget {
       error.value = null;
       try {
         await ref.read(authProvider.notifier).signInWithGoogle();
-        onSuccess();
+        if (context.mounted) onSuccess();
       } on AuthException catch (e) {
+        if (!context.mounted) return;
         if (e.statusCode == 'ROLE_MISMATCH') {
           showRoleMismatchDialog();
         } else {
           error.value = mapError(e);
         }
       } catch (e) {
-        error.value = mapError(e);
+        if (context.mounted) error.value = mapError(e);
       } finally {
-        isLoading.value = false;
+        if (context.mounted) isLoading.value = false;
       }
     }
 
